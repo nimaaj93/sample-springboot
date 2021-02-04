@@ -1,6 +1,9 @@
 spring:
   datasource:
-    username: 'db_user'
-    password: '8b3b91c7'
-    url: 'jdbc:mysql://localhost:3306/assessment'
+    username: 'assessment'
+    password: 'assessment'
+    url: 'jdbc:postgresql://localhost:5432/assessment'
+  jpa:
+    hibernate:
+      ddl-auto: update
 
